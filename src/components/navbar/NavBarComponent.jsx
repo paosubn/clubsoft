@@ -9,7 +9,8 @@ function NavBar(props){
     const [open, setOpen]= useState(false)
     return(
         <>
-        <AppBar  >
+        <AppBar  position="static"
+        color="primary">
         <Toolbar>
             <IconButton
             color="inherit"

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -9,14 +8,10 @@ import { CardActionArea } from '@mui/material';
 
 
 
-function NuevoClub(props){
+function NuevaPersona(props){
     const [open, setOpen]= useState(false)
     return(
         <>
-        <Grid container
-  direction="row"
-  justifyContent="center"
-  alignItems="center" >
          <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
@@ -36,8 +31,7 @@ function NuevoClub(props){
         </CardContent>
       </CardActionArea>
     </Card>
-        </Grid>
         </>
     )
 }
-export default NuevoClub;
+export default NuevaPersona;
